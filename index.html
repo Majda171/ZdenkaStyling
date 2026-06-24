@@ -22,9 +22,7 @@
   <link rel="canonical" href="https://www.zdenkastyling.cz/">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/zdenka-portrait-360.webp" type="image/webp">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
@@ -65,14 +63,14 @@
     <article class="card" aria-label="Digitální vizitka Zdenka Styling">
       <header class="brand">
         <a href="https://majda171.github.io/styling/index.html" aria-label="Hlavní web Zdenka Styling">
-          <img src="assets/logo-zdenka-styling.svg" alt="Zdenka Styling" class="logo">
+          <img src="assets/logo-zdenka-styling.svg" width="258" height="80" alt="Zdenka Styling" class="logo" decoding="async">
         </a>
         <p>Osobní stylistka · Kutná Hora, Kolín, Poděbrady, Čáslav a okolí</p>
       </header>
 
       <section class="hero">
-        <a href="" class="portrait-link" aria-label="Rezervovat konzultaci">
-          <img src="assets/zdenka-portrait.jpg" alt="Zdenka Seidlová, osobní stylistka" class="portrait">
+        <a href="https://majda171.github.io/styling/#kontakt" class="portrait-link" aria-label="Rezervovat konzultaci">
+          <img src="assets/zdenka-portrait-360.webp" width="360" height="360" alt="Zdenka Seidlová, osobní stylistka" class="portrait" decoding="async" fetchpriority="high">
         </a>
 
         <div class="hero-text">
@@ -106,15 +104,15 @@
 
       <nav class="portfolio" aria-label="Portfolio odkazy">
         <a href="https://majda171.github.io/styling/portfolio.html" class="portfolio-card">
-          <img src="assets/young-woman-standing-inside-office-center.jpg" alt="Portfolio" class="portfolio-image">
+          <img src="assets/portfolio-1-420.webp" width="420" height="300" alt="Portfolio" class="portfolio-image" loading="lazy" decoding="async">
           <span>Portfolio</span>
         </a>
         <a href="https://majda171.github.io/styling/portfolio.html" class="portfolio-card">
-          <img src="assets/VLK_1143_web.webp" alt="Proměny" class="portfolio-image">
+          <img src="assets/portfolio-2-420.webp" width="420" height="300" alt="Proměny" class="portfolio-image" loading="lazy" decoding="async">
           <span>Proměny</span>
         </a>
         <a href="https://majda171.github.io/styling/index.html#sluzby" class="portfolio-card">
-          <img src="assets/zdenka-konzultace-wide.jpg" alt="Služby" class="portfolio-image">
+          <img src="assets/portfolio-3-420.webp" width="420" height="300" alt="Služby" class="portfolio-image" loading="lazy" decoding="async">
           <span>Služby</span>
         </a>
       </nav>
